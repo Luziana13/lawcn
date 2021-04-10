@@ -1,0 +1,68 @@
+.navbar-default {
+    background-color: #8810D8;
+    border-color:  #8810D8;
+   
+}
+nav #navbarNavAltMarkup {
+    display: flex;
+    width: 100%;
+ }
+ 
+ .navbar-nav a {
+   flex-grow: 1;
+ }
+.colorText{
+    color: #fff;
+    font-size: 17px;
+    font-family: "sans-serif"
+}
+
+    
+.navbar .navbar-collapse {
+    text-align: center;
+    }
+
+.div-imagem {
+    background-color: #3D0066;
+    border-color:  #3D0066;
+    height: 250px;
+
+
+}
+
+#logoEvento{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#textoPrincipalCabecalho{
+    color: #fff;
+    text-align:justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29em;
+    padding-left: 40px;
+}
+
+#textoPrincipal{
+    padding-top: 20px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#slideImagens{
+    height: 300px;
+    background-color: gray;
+}
+
+.active { 
+    color:#fdc500
+}
+a:hover,a:visited:hover {
+     color: transparent; 
+    }
+
+
+
+
