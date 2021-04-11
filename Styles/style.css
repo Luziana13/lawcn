@@ -1,3 +1,10 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5{
+
+    font-weight: 700;
+}
 .navbar-default {
     background-color: #8810D8;
     border-color:  #8810D8;
@@ -5,6 +12,7 @@
 }
 nav #navbarNavAltMarkup {
     display: flex;
+    flex-direction: column;
     width: 100%;
  }
  
@@ -14,7 +22,7 @@ nav #navbarNavAltMarkup {
 .colorText{
     color: #fff;
     font-size: 17px;
-    font-family: "sans-serif"
+    font-family: 'Raleway', sans-serif;
 }
 
     
@@ -38,7 +46,7 @@ nav #navbarNavAltMarkup {
 #textoPrincipalCabecalho{
     color: #fff;
     text-align:justify;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 29em;
@@ -48,8 +56,7 @@ nav #navbarNavAltMarkup {
 #textoPrincipal{
     padding-top: 20px;
     text-align: justify;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    font-family: 'Raleway', sans-serif;}
 
 #slideImagens{
     height: 300px;
@@ -60,9 +67,29 @@ nav #navbarNavAltMarkup {
     color:#fdc500
 }
 a:hover,a:visited:hover {
-     color: transparent; 
-    }
+     background-color: #fdc500; 
+}
 
+/*Cards */
+.title {
+    margin: 30px;
+    text-align: center;
+}
+.more{
+    border: solid 3px #fff;
+    border-radius: 5px;
+    background-color: #3D0066;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 
-
-
+.cards .card{
+    margin: 15px;
+}
