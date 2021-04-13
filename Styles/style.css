@@ -56,7 +56,8 @@ nav #navbarNavAltMarkup {
 #textoPrincipal{
     padding-top: 20px;
     text-align: justify;
-    font-family: 'Raleway', sans-serif;}
+    font-family: 'Raleway', sans-serif;
+}
 
 #slideImagens{
     height: 300px;
@@ -69,7 +70,9 @@ nav #navbarNavAltMarkup {
 a:hover,a:visited:hover {
      background-color: #fdc500; 
 }
-
+.container span{
+    background-color: #fdc500;
+}
 /*Cards */
 .title {
     margin: 30px;
