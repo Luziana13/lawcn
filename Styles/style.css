@@ -1,5 +1,7 @@
 body{
     font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 h1,h2,h3,h4,h5{
     font-weight: 700;
@@ -193,3 +195,30 @@ nav #navbarNavAltMarkup {
     margin-right: 30px;
 }
 
+/*FOOTER*/
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c9c9c9;
+  color: #313131;
+  height: 180px;
+  text-align: center;
+  
+}
+.footer img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.subFooter{
+    margin-top: 10px;
+}
+#miniFooter{
+    text-align: center;
+    width: 100%;
+    background-color:#313131;
+    color: #fff;
+    margin-bottom: 0;
+}
