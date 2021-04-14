@@ -2,7 +2,6 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 h1,h2,h3,h4,h5{
-
     font-weight: 700;
 }
 .navbar-default {
@@ -29,7 +28,12 @@ nav #navbarNavAltMarkup {
 .navbar .navbar-collapse {
     text-align: center;
     }
-
+.active { 
+    color:#fdc500
+}
+.navbar-nav a:hover,a:visited:hover {
+     background-color: #fdc500; 
+}
 .div-imagem {
     background-color: #3D0066;
     border-color:  #3D0066;
@@ -63,15 +67,31 @@ nav #navbarNavAltMarkup {
     height: 300px;
     background-color: gray;
 }
-
-.active { 
-    color:#fdc500
-}
-a:hover,a:visited:hover {
-     background-color: #fdc500; 
-}
 .container span{
     background-color: #fdc500;
+}   
+.container h6{
+    font-weight: bold;
+}
+.container h4{
+    margin: 20px;
+    text-align: center;
+}
+.container #guideline-title{
+    text-align: left;
+    color: #3D0066;
+}
+.container #important-dates{
+    margin-bottom:0;
+}
+.container ul li{
+    text-align: justify ;
+}
+#doubled-line{
+    margin: 0.5px 0 12px 0;
+}
+#doubled-line hr{
+    margin: 2px;
 }
 /*Cards */
 .title {
@@ -88,7 +108,6 @@ a:hover,a:visited:hover {
 }
 .cards {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     
@@ -96,4 +115,48 @@ a:hover,a:visited:hover {
 
 .cards .card{
     margin: 15px;
+}
+
+/*Button*/
+#button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-easychair{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background-color: #8810D8;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+.btn-easychair a:link{
+    text-decoration: none;
+}
+.btn-easychair a:visited{
+    color: yellow;
+}
+.btn-easychair:hover,.btn-easychair:visited:hover{
+    color: #8810D8;
+    background-color: #fff;
+    border: solid 2px #8810D8;
+}
+
+/* Topics */
+#topic-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: baseline;
+    margin-bottom: 10px;
+    word-wrap: normal;
+    margin-left: 20%;
+    
+}
+#topic-container .topic{
+    word-wrap: normal;
+    margin-right: 30px;
 }
