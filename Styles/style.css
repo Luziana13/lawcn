@@ -114,6 +114,10 @@ nav #navbarNavAltMarkup {
 .container #important-dates{
     margin-bottom:0;
 }
+
+.container #important-dates-list ul li span{
+    font-weight: bold;
+}
 .container ul li{
     text-align: justify ;
 }
@@ -231,4 +235,38 @@ nav #navbarNavAltMarkup {
     background-color:#313131;
     color: #fff;
     margin-bottom: 0;
+}
+
+/*To be Announced*/
+.tobe-announced{
+    margin: 200px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tobe-announced h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #8810D8;
+    text-align: center;
+}
+.tobe-announced i{
+    font-size: 100px;
+    color: #3D0066;
+}
+
+/*Schedule*/
+
+#schedule {
+    margin: 100px 50px 100px 50px;
+
+
+}
+
+#schedule .day-schedule{
+    margin: 80px;
+}
+
+#schedule h5{
+    font-weight: bold;
 }
