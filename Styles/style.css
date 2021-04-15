@@ -30,11 +30,13 @@ nav #navbarNavAltMarkup {
     height: 50px;  
 }
     
-.navbar .navbar-collapse {
-    text-align: center;
+.navbar-nav {
+    font-weight: bold;
+    
     }
 .active { 
-    color:#fdc500
+    color:#fdc500;
+    
 }
 .navbar-nav a:hover,a:visited:hover {
      background-color: #fdc500; 
@@ -43,10 +45,16 @@ nav #navbarNavAltMarkup {
     background-color: #3D0066;
     border-color:  #3D0066;
     height: 250px;
-
-
+}
+.div-imagem #textoPrincipalCabecalho{
+    width: 500px;
+    text-align: center;
 }
 
+.div-imagem #textoPrincipalCabecalho #dataEvento{
+    color: #fdc500;
+    font-weight: bold;
+}
 #logoEvento{
     display: block;
     margin-left: auto;
