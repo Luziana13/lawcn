@@ -23,7 +23,9 @@ nav #navbarNavAltMarkup {
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
-
+.carousel{
+    height: 50px;  
+}
     
 .navbar .navbar-collapse {
     text-align: center;
