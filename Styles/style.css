@@ -7,6 +7,7 @@ h1,h2,h3,h4,h5{
     font-weight: 700;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .navbar-default {
     background-color: #8810D8;
     border-color:  #8810D8;
@@ -127,7 +128,9 @@ nav #navbarNavAltMarkup {
 #doubled-line hr{
     margin: 2px;
 }
-/*Cards */
+
+/*---- Cards ---- */
+
 .title {
     margin: 30px;
     text-align: center;
@@ -144,11 +147,14 @@ nav #navbarNavAltMarkup {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .cards .card{
     margin: 15px;
+}
+
+.cards .card p{
+    text-align: justify;
 }
 
 #titleMain {
