@@ -230,36 +230,35 @@ nav #navbarNavAltMarkup {
     border-radius: 8px;
 }
 
-#topic-container .topic .topic-title
 
 /*FOOTER*/
 .footer{
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #c9c9c9;
-  color: #313131;
-  height: 180px;
-  text-align: center;
-  
-}
-.footer img{
-    width: 80px;
-    height: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
-.subFooter{
-    margin-top: 10px;
-}
-#miniFooter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c9c9c9;
+    color: #313131;
+    height: 180px;
     text-align: center;
-    width: 100%;
-    background-color:#313131;
-    color: #fff;
-    margin-bottom: 0;
-}
-
+    
+  }
+  .footer img{
+      width: 80px;
+      height: 80px;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+  }
+  .subFooter{
+      margin-top: 10px;
+  }
+  #miniFooter{
+      text-align: center;
+      width: 100%;
+      background-color:#313131;
+      color: #fff;
+      margin-bottom: 0;
+  }
+  
 /*To be Announced*/
 .tobe-announced{
     margin: 200px 100px 200px 100px;
