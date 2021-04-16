@@ -7,7 +7,9 @@ h1,h2,h3,h4,h5{
     font-weight: 700;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+a:link {
+    text-decoration: none;
+}
 .navbar-default {
     background-color: #8810D8;
     border-color:  #8810D8;
@@ -189,14 +191,21 @@ nav #navbarNavAltMarkup {
 }
 .btn-easychair a:link{
     text-decoration: none;
+    color: #fff !important;
 }
-.btn-easychair a:visited{
-    color: yellow;
-}
+
 .btn-easychair:hover,.btn-easychair:visited:hover{
-    color: #8810D8;
-    background-color: #fff;
-    border: solid 2px #8810D8;
+    background-color: #640ba0;
+}
+
+
+/*---- Submissions ----*/
+
+#springer-img{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    
 }
 
 /* Topics */
@@ -207,13 +216,21 @@ nav #navbarNavAltMarkup {
     align-items: baseline;
     margin-bottom: 10px;
     word-wrap: normal;
-    margin-left: 20%;
+    margin-left: 10%;
+   
     
 }
 #topic-container .topic{
+    padding: 20px;
+    color: #313131;
     word-wrap: normal;
-    margin-right: 30px;
+    margin-left: px;
+    background-color: rgb(219, 219, 219);
+    border: solid 5px #fff;
+    border-radius: 8px;
 }
+
+#topic-container .topic .topic-title
 
 /*FOOTER*/
 .footer{
