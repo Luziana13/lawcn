@@ -78,13 +78,10 @@ nav #navbarNavAltMarkup {
     text-align: justify;
     font-family: 'Raleway', sans-serif;
 }
-
-#slideImagens{
-
-    height: 580px !important;
-    background-color: #fff;
-    width: 100%;
-    margin: 0 auto;
+.carousel{
+    display: flex;
+    flex-direction: column;
+    height:580px ;
 }
 
 .carousel-item .img-fluid{
