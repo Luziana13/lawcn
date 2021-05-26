@@ -44,10 +44,23 @@ nav #navbarNavAltMarkup {
 .navbar-nav a:hover,a:visited:hover {
      background-color: #fdc500; 
 }
+
+/*Responsive Menu*/
+
+.navbar {
+   display: none;
+   background-color: #8810D8 !important;
+   border-color:  #8810D8 !important;
+}
+
 .div-imagem {
     background-color: #3D0066;
-    border-color:  #3D0066;
+    border-color:  hsl(276, 100%, 20%);
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .div-imagem #textoPrincipalCabecalho{
     width: 500px;
@@ -58,25 +71,37 @@ nav #navbarNavAltMarkup {
     color: #fdc500;
     font-weight: bold;
 }
-#logoEvento{
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
 #textoPrincipalCabecalho{
     color: #fff;
     text-align:justify;
     font-family: 'Raleway', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 29em;
-    padding-left: 40px;
+    width: 100%;
+    
+}
+.top{
+    width: 100%;
 }
 
 #textoPrincipal{
     padding-top: 20px;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
+}
+
+#div-imagem{
+    width: 100%;
+}
+#textoPrincipalCabecalho{
+    width: 100%;
+}
+
+
+#textoPrincipalCabecalho h6{
+    font-size: 1rem;
+    line-break: loose;
+    word-break: break-all;
 }
 .carousel{
     display: flex;
@@ -85,7 +110,8 @@ nav #navbarNavAltMarkup {
 }
 
 .carousel-item .img-fluid{
-    background-size: cover ;
+    object-fit: cover;
+    background-size:  cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 580px;
@@ -232,9 +258,11 @@ nav #navbarNavAltMarkup {
 .footer{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #c9c9c9;
     color: #313131;
     height: 180px;
+    height: 100%;
     text-align: center;
     
   }
@@ -246,7 +274,9 @@ nav #navbarNavAltMarkup {
       
   }
   .subFooter{
-      margin-top: 10px;
+     
+      margin: 15px 10px; 
+      
   }
   #miniFooter{
       text-align: center;
