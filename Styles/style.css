@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 h1,h2,h3,h4,h5{
+    color:  #8810D8;
     font-weight: 700;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -134,7 +135,9 @@ nav #navbarNavAltMarkup {
 .title {
     margin: 30px;
     text-align: center;
+    color:  #3D0066;
 }
+
 .more{
     border: solid 3px #fff;
     border-radius: 5px;
@@ -306,4 +309,8 @@ nav #navbarNavAltMarkup {
 #imgIbro{
 width: 120px !important;
 
+}
+  
+ul.listRemoverPoint {
+    list-style-type: none;
 }
