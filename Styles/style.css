@@ -258,6 +258,7 @@ nav #navbarNavAltMarkup {
       width: 100%;
       background-color:#313131;
       color: #fff;
+      margin-bottom: -30px;
       
   }
   
@@ -308,8 +309,13 @@ nav #navbarNavAltMarkup {
 }
 
 #imgIbro{
-width: 120px !important;
+    width: 170px !important;
+    height: 120px  !important;
+}
 
+#brasaoUfma{
+    width: 135px !important;
+    height: 135px  !important;
 }
   
 ul.listRemoverPoint {
