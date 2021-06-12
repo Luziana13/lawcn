@@ -90,9 +90,7 @@ nav #navbarNavAltMarkup {
     flex-direction: column;
     height:800px ;
 }
-.colorText{
-    color: #3D0066 im !important;
-}
+
 .carousel-item .img-fluid{
     background-size: cover ;
     background-repeat: no-repeat;
