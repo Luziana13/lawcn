@@ -5,10 +5,14 @@ body{
     background-color:#d0b5e8 im !important;
 }
 h1,h2,h3,h4,h5{
-    color:  #8810D8;
+ 
     font-weight: 700;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+h5{
+    color:  #8810D8;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -86,7 +90,9 @@ nav #navbarNavAltMarkup {
     flex-direction: column;
     height:800px ;
 }
-
+.colorText{
+    color: #3D0066 im !important;
+}
 .carousel-item .img-fluid{
     background-size: cover ;
     background-repeat: no-repeat;
@@ -239,9 +245,10 @@ nav #navbarNavAltMarkup {
     justify-content: space-evenly;
     background-color: #c9c9c9;
     color: #313131;
-    height: 180px;
+    height: 220px;
+    width: 100%;
     text-align: center;
-    
+  
   }
   .footer img{
       width: 80px;
@@ -258,7 +265,8 @@ nav #navbarNavAltMarkup {
       width: 100%;
       background-color:#313131;
       color: #fff;
-      margin-bottom: -30px;
+      position: absolute;
+      margin-bottom: -20;
       
   }
   
@@ -314,8 +322,8 @@ nav #navbarNavAltMarkup {
 }
 
 #brasaoUfma{
-    width: 135px !important;
-    height: 135px  !important;
+    width: 130px !important;
+    height: 130px  !important;
 }
   
 ul.listRemoverPoint {
