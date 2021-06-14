@@ -11,14 +11,18 @@
         <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
         
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- CSS -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./Styles/responsive.css">
+        <link rel="stylesheet" href="./Styles/style.css">
      </head>
      <body>
-        <div>
+        <div class="top">
            <div class="div-imagem" >
-            <img src="./imagens/logoCmpleto.png" width='450px' height='150px' id="logoEvento">
+            <img src="./imagens/logoCmpleto.png" width='450px' height='120px' id="logoEvento">
             <div id="textoPrincipalCabecalho">
-              <h6>Latin American Workshop on Computational Neuroscience</h6>
+              <h6 id="sigla">Latin American Workshop on Computational Neuroscience</h6>
               <h6 id="dataEvento">São Luís, MA - Brazil - December, 8-10, 2021</h6>
             </div> 
             
@@ -50,8 +54,43 @@
               </nav>
                
         </div>
-        <div class="container" id="textoPrincipal" style="background-color: #fff;">
-          <div id="slideImagens">
+        
+        <!-- Responsive Menu-->
+        <div class="resp-menu">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 oi" id="resp-nav">
+                    <a class="nav-item nav-link colorText active" href="./index.html">Main</a>
+                    <a class="nav-item nav-link colorText" href="./src/schedule.html">Schedule</a>
+                    <a class="nav-item nav-link colorText" href="./src/keynoteSpeakers.html">Keynote Speakers</a>
+                    <a class="nav-item nav-link colorText" href="./src/registration.html">Registration</a>
+                    <a class="nav-item nav-link colorText" href="./src/submissions.html">Submissions</a>
+                    <a class="nav-item nav-link colorText" href="./src/comitees.html">Committees</a>
+                    <a class="nav-item nav-link colorText" href="./src/location.html">Venue</a>
+                    <a class="nav-item nav-link colorText" href="./src/travel_accomodation.html">Travel and Accomodation</a>
+                    <a class="nav-item nav-link colorText" href="./src/contact.html">Contact</a>
+                    <div class="nav-item dropdown lastEvent">
+                        <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Last Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="http://www.inf.ufrgs.br/lawcn/index.php?q=">I LAWCN</a></li>
+                          <li><a class="dropdown-item" href=" https://www.lawcn.com.br/index.html">II LAWCN</a></li>
+                        </ul>
+                    </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+          
+        </div>
+        <!-- End Responsive Menu-->
+        <div class="container">
+        <div id="slideImagens">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -141,7 +180,7 @@
                 </div>  
                                  <!--Areas of the II LAWCN-->
                 <div>
-                    <h4 id="guideline-title">Areas of the II LAWCN</h4>
+                    <h4 id="guideline-title">Areas of the III LAWCN</h4>
                   <p>
                     Keeping the tradition of previous edition of this meeting, the III LAWCN has four main topics:
                     <b>
@@ -223,12 +262,13 @@
                   <hr>
                 </div>
                 <div style="text-align: center;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DMr3H8QMeQQ" title="YouTube video player" 
+                    <iframe width="90%" height="315" src="https://www.youtube.com/embed/DMr3H8QMeQQ" title="YouTube video player" 
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <hr>
               </div>
         </div>
+      </div>
         <footer>
             <div class="footer">
                  <div class="subFooter">
