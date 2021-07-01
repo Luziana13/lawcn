@@ -4,6 +4,9 @@ body{
     margin: 0;
     background-color:#d0b5e8 im !important;
 }
+p{
+    text-align: justify;
+}
 h1,h2,h3,h4,h5{
  
     font-weight: 700;
@@ -357,3 +360,4 @@ nav #navbarNavAltMarkup {
 ul.listRemoverPoint {
     list-style-type: none;
 }
+
