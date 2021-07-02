@@ -25,6 +25,16 @@
          width: 420px;
          height: 90px;
      }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
 }
 
 @media only screen and (max-width: 470px){
@@ -36,6 +46,16 @@
          width: 400px;
          height: 70px;
      }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -54,6 +74,16 @@
 
     footer{
         margin-bottom: 0px;
+    }
+
+    #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
     }
 }
 
@@ -75,6 +105,16 @@
          width: 370px;
          height: 60px;
      }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
 }
 
 @media only screen and (max-width: 375px){
@@ -98,4 +138,14 @@
          width: 340px;
          height: 60px;
      }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
 }
