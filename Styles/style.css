@@ -194,6 +194,12 @@ nav #navbarNavAltMarkup {
     text-align: justify;
 }
 
+.card figure img{
+    object-fit: cover;
+    background-size:  fill;
+    background-repeat: no-repeat;
+}
+
 #titleMain {
     text-align: center;
     font-weight: bold;
