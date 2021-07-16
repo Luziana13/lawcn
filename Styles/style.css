@@ -305,6 +305,44 @@ nav #navbarNavAltMarkup {
       
   }
   
+
+  /*Form*/
+
+  form{
+      margin-top: 50px;
+  }
+  form button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      width: 180px;
+      height: 40px;
+      background-color: #640ba0;
+      border: solid 1px #fff;
+      border-radius: 4px;
+      color: #fff;
+  }
+  form button h6{
+      margin-top: 8px;
+  }
+  .form-group .form-row .col{
+    margin-bottom: 12px;
+  }
+  .form-group label{
+      font-weight: bold;
+      color: #640ba0; 
+  }
+  ::-webkit-input-placeholder  { 
+    font-size: smaller;
+  }
+
+  .send-contact{
+      margin-top: 80px;
+  }
+
+
+
 /*To be Announced*/
 .tobe-announced{
     margin: 200px 100px 200px 100px;
