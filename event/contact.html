@@ -54,14 +54,14 @@
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4 oi" id="resp-nav">
                       <a class="nav-item nav-link colorText active" href="../index.html">Main</a>
-                      <a class="nav-item nav-link colorText" href="../src/schedule.html">Schedule</a>
-                      <a class="nav-item nav-link colorText" href="../src/keynoteSpeakers.html">Keynote Speakers</a>
-                      <a class="nav-item nav-link colorText" href="../src/registration.html">Registration</a>
-                      <a class="nav-item nav-link colorText" href="../src/submissions.html">Submissions</a>
-                      <a class="nav-item nav-link colorText" href="../src/comittees.html">Committees</a>
-                      <a class="nav-item nav-link colorText" href="../src/location.html">Venue</a>
-                      <a class="nav-item nav-link colorText" href="../src/travel_accomodation.html">Travel and Accomodation</a>
-                      <a class="nav-item nav-link colorText" href="../src/contact.html">Contact</a>
+                      <a class="nav-item nav-link colorText" href="../event/schedule.html">Schedule</a>
+                      <a class="nav-item nav-link colorText" href="../event/keynoteSpeakers.html">Keynote Speakers</a>
+                      <a class="nav-item nav-link colorText" href="../event/registration.html">Registration</a>
+                      <a class="nav-item nav-link colorText" href="../event/submissions.html">Submissions</a>
+                      <a class="nav-item nav-link colorText" href="../event/comittees.html">Committees</a>
+                      <a class="nav-item nav-link colorText" href="../event/location.html">Venue</a>
+                      <a class="nav-item nav-link colorText" href="../event/travel_accomodation.html">Travel and Accomodation</a>
+                      <a class="nav-item nav-link colorText" href="../event/contact.html">Contact</a>
                       <div class="nav-item dropdown lastEvent">
                           <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                               Last Events
@@ -89,8 +89,28 @@
                 <h1>Contact</h1>
            </div>
 		   <hr>
-           
-          <div style="text-align: center; margin: 15%;">
+       <div class="container">
+        <form target="_blank" action="https://formsubmit.co/organization@lawcn.com.br" method="POST">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" ><h6>Send Email!</h6></button>
+        </form>
+    </div>
+          <div class="send-contact">
 			  <p><b>Any doubt can be sent to</b> organization@lawcn.com.br</p>
 		  </div>
            
