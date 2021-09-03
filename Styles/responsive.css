@@ -16,6 +16,29 @@
     }
 }
 
+@media only screen and (max-width: 850px){
+    .footer{
+        flex-direction: column;
+        height: 500px !important;
+    }
+}
+@media only screen and (max-width: 620px){
+    .organization{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 560px){
+    
+}
+@media only screen and (max-width: 520px){
+    #posterImg{
+        width:446px;
+        height: 448px;
+    }
+}
+
 @media only screen and (max-width: 490px){
     #textoPrincipalCabecalho h6{
         font-size: 0.89em !important;
@@ -147,5 +170,14 @@
     #brasaoUfma{
         width: 110px !important;
         height: 110px  !important;
+    }
+
+    #springerImg{
+        width: 300px !important;
+        height: 82px !important;
+    }
+    #ccisImg{
+        width: 180px !important;
+        height: 151px !important;
     }
 }

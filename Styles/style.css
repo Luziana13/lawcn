@@ -261,6 +261,13 @@ nav #navbarNavAltMarkup {
     width: 462px;
     height: 126px;
 }
+#lawcnSubmission{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow-x: scroll;
+}
 
 /* Topics */
 #topic-container{
@@ -292,6 +299,7 @@ nav #navbarNavAltMarkup {
     align-items:center ;
     background-color: #c9c9c9;
     color: #313131;
+    min-height: fit-content;
     height: 250px;
     width: 100%;
     text-align: center;
@@ -319,7 +327,7 @@ nav #navbarNavAltMarkup {
   }
 
   .organization{
-      width: 600px;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -413,12 +421,13 @@ nav #navbarNavAltMarkup {
 
 #schedule {
     margin: 100px 0 100px 0 ;
-
+    width: 100%;
 
 }
 
 #schedule .day-schedule{
-    margin: 80px;
+    overflow-x: auto;
+    width: 100%;
 }
 
 
