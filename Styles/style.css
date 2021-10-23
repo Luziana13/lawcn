@@ -244,7 +244,7 @@ nav #navbarNavAltMarkup {
 
 /*---- Submissions ----*/
 .submissions{
-    height: 1000px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,13 +253,13 @@ nav #navbarNavAltMarkup {
 
 }
 #ccisImg{
-    width: 296px;
-    height: 247px;
+    width: 280px;
+    height: 230px;
 }
 #springerImg{
     
     width: 462px;
-    height: 126px;
+    height: 100px;
 }
 #lawcnSubmission{
     display: flex;
@@ -336,9 +336,11 @@ nav #navbarNavAltMarkup {
   }
 
   
-  #fsadu{
+    #fsadu{
         width: 180px ;
     }
+
+   
     #brasaoUfma{
 
         height: 160px !important;
@@ -397,7 +399,12 @@ nav #navbarNavAltMarkup {
       margin-top: 80px;
   }
 
-
+.travel_aid{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  
+}
 
 /*To be Announced*/
 .tobe-announced{
@@ -447,7 +454,7 @@ nav #navbarNavAltMarkup {
 }
 
 #imgIbro{
-    width: 170px;
+    width: 160px;
     height: 120px;
 }
 
