@@ -467,3 +467,18 @@ ul.listRemoverPoint {
     list-style-type: none;
 }
 
+#tableListagem ul{
+    list-style-type: none;
+}
+#tableListagem ul li{
+    text-align: left;
+}
+
+#transporteUber99{
+    text-align: center;
+    align-items: center;
+}
+
+.list-sem-marcador{
+    list-style-type: none;
+}
