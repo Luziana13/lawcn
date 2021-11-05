@@ -480,5 +480,5 @@ ul.listRemoverPoint {
 }
 
 .list-sem-marcador{
-    list-style-type: none;
+    list-style-type: none !important;
 }
