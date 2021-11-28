@@ -1,8 +1,16 @@
 
-@media only screen and (max-width: 1165px){
+@media only screen and (max-width: 1395px){
    
     .navbar-nav a{
         font-size: 0.87rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1308px){
+   
+    .navbar-nav a{
+        font-size: 0.57rem;
     }
     
 }
@@ -13,6 +21,29 @@
     }
     .navbar{
         display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .footer{
+        flex-direction: column;
+        height: 500px !important;
+    }
+}
+@media only screen and (max-width: 620px){
+    .organization{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 560px){
+    
+}
+@media only screen and (max-width: 520px){
+    #posterImg{
+        width:446px;
+        height: 448px;
     }
 }
 
@@ -147,5 +178,14 @@
     #brasaoUfma{
         width: 110px !important;
         height: 110px  !important;
+    }
+
+    #springerImg{
+        width: 300px !important;
+        height: 82px !important;
+    }
+    #ccisImg{
+        width: 180px !important;
+        height: 151px !important;
     }
 }

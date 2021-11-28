@@ -243,12 +243,30 @@ nav #navbarNavAltMarkup {
 
 
 /*---- Submissions ----*/
+.submissions{
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
 
-#springer-img{
+}
+#ccisImg{
+    width: 280px;
+    height: 230px;
+}
+#springerImg{
+    
+    width: 462px;
+    height: 100px;
+}
+#lawcnSubmission{
     display: flex;
     justify-content: center;
-    margin: 50px auto;
-    
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow-x: scroll;
 }
 
 /* Topics */
@@ -281,6 +299,7 @@ nav #navbarNavAltMarkup {
     align-items:center ;
     background-color: #c9c9c9;
     color: #313131;
+    min-height: fit-content;
     height: 250px;
     width: 100%;
     text-align: center;
@@ -308,14 +327,25 @@ nav #navbarNavAltMarkup {
   }
 
   .organization{
-      width: 600px;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-items: center;
       
-    
   }
+
+  
+    #fsadu{
+        width: 180px ;
+    }
+
+   
+    #brasaoUfma{
+
+        height: 160px !important;
+        width: 160px !important;
+    }
   .imagemFooter{
     margin-right: 20px;
     margin-bottom: 10px;
@@ -369,7 +399,12 @@ nav #navbarNavAltMarkup {
       margin-top: 80px;
   }
 
-
+.travel_aid{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  
+}
 
 /*To be Announced*/
 .tobe-announced{
@@ -393,12 +428,13 @@ nav #navbarNavAltMarkup {
 
 #schedule {
     margin: 100px 0 100px 0 ;
-
+    width: 100%;
 
 }
 
 #schedule .day-schedule{
-    margin: 80px;
+    overflow-x: auto;
+    width: 100%;
 }
 
 
@@ -418,7 +454,7 @@ nav #navbarNavAltMarkup {
 }
 
 #imgIbro{
-    width: 170px;
+    width: 160px;
     height: 120px;
 }
 
@@ -431,3 +467,18 @@ ul.listRemoverPoint {
     list-style-type: none;
 }
 
+#tableListagem ul{
+    list-style-type: none;
+}
+#tableListagem ul li{
+    text-align: left;
+}
+
+#transporteUber99{
+    text-align: center;
+    align-items: center;
+}
+
+.list-sem-marcador{
+    list-style-type: none !important;
+}
